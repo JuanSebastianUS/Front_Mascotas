@@ -1,3 +1,4 @@
+import { CdkTableDataSourceInput } from '@angular/cdk/table';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'crud_prueba';
+applyFilter: any;
+dataSource!: CdkTableDataSourceInput<any>;
+displayedColumns: any;
 }
